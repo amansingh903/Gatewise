@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ffffff;
+  --color-secondary: #c7c6c6;
+  --color-tertiary: #e3e2e2;
+  --color-background: #0a0a0a;
+  --color-surface: #121212;
+  --color-on-background: #e3e2e2;
+  --color-on-surface: #e3e2e2;
+  --color-outline: #404040;
+  --color-brand-gray: #ffffff;
+  --color-brand-muted: #737373;
+
+  /* Dashboard extended palette */
+  --color-surface-container-low: #1b1c1c;
+  --color-surface-container: #1f2020;
+  --color-surface-container-high: #292a2a;
+  --color-surface-container-highest: #343535;
+  --color-surface-container-lowest: #0d0e0f;
+  --color-surface-bright: #393939;
+  --color-surface-variant: #343535;
+  --color-on-surface-variant: #c6c6c6;
+  --color-outline-variant: #474747;
+  --color-on-primary: #1b1c1c;
+  --color-primary-container: #d5d4d4;
+  --color-on-primary-container: #000000;
+  --color-secondary-container: #464747;
+  --color-on-secondary-container: #e3e2e2;
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+  --color-on-error: #690005;
+  --color-on-error-container: #ffdad6;
+  --color-inverse-surface: #e3e2e2;
+  --color-inverse-on-surface: #303031;
+
+  --font-headline: 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-label: 'Inter', sans-serif;
+
+  --radius-DEFAULT: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1.25rem;
+  --radius-full: 9999px;
+}
+
+:root {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-body);
+  letter-spacing: -0.01em;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--color-background);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Three.js canvas is now self-contained in ThreeCanvas component */
+
+/* Glass card utility */
+.glass-card {
+  backdrop-filter: blur(8px);
+}
+
+/* Stitch design utilities */
+.cta-solid {
+  background: #ffffff;
+  color: #000000;
+}
+
+.grayscale-border {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Reveal on scroll animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero gradient text */
+.hero-gradient-text {
+  background: linear-gradient(135deg, #ffffff 0%, #737373 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-container-high);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-outline);
+}
+
+/* Auth Login Styling */
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.particle-bg {
+  background: radial-gradient(circle at 50% 50%, #1a1a1a 0%, #000000 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.particle-bg::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+  mask-image: radial-gradient(ellipse at center, black, transparent 80%);
+}
