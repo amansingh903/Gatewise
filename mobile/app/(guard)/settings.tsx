@@ -36,7 +36,7 @@ const appSettings: SettingItem[] = [
   { icon: 'dark-mode', label: 'Appearance', subtitle: 'Gunmetal Dark' },
   { icon: 'language', label: 'Language', subtitle: 'English' },
   { icon: 'help-outline', label: 'Help & Support' },
-  { icon: 'info-outline', label: 'About SocietyOS', subtitle: 'v1.0.0' },
+  { icon: 'info-outline', label: 'About GateWise', subtitle: 'v1.0.0' },
 ];
 
 export default function GuardSettings() {
@@ -180,8 +180,8 @@ export default function GuardSettings() {
         </TouchableOpacity>
 
         {/* Footer */}
-        <Text style={styles.footer}>SocietyOS v1.0.0</Text>
-        <Text style={styles.footerSub}>Secured by SocietyOS Identity Shield</Text>
+        <Text style={styles.footer}>GateWise v1.0.0</Text>
+        <Text style={styles.footerSub}>Secured by GateWise Identity Shield</Text>
 
         <View style={{ height: 40 }} />
       </ScrollView>

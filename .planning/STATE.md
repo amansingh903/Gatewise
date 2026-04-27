@@ -1,4 +1,4 @@
-# STATE.md — SocietyOS Mobile UI Migration
+# STATE.md — GateWise Mobile UI Migration
 
 ## Project Reference
 

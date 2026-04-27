@@ -1,4 +1,4 @@
-# SocietyOS Web Admin — Requirements
+# GateWise Web Admin — Requirements
 
 ## Milestone: v2.0 Web Admin Portal & Landing Page
 

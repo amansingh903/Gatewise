@@ -1,6 +1,6 @@
 ---
 phase: 1–3
-slug: societyos-shieldguard-full-product
+slug: gatewise-shieldguard-full-product
 status: approved
 shadcn_initialized: false
 preset: none
@@ -120,14 +120,14 @@ Gunmetal surface variant (Quick Action primary card):
 | Scanner subtext | Scanning for authorized credentials... |
 | Staff ID prefix | SOS-2024- |
 | Guard app name | ShieldGuard |
-| Resident app name | SocietyOS |
-| Staff app name | SocietyOS Staff |
+| Resident app name | GateWise |
+| Staff app name | GateWise Staff |
 | Auth screen brand | SENTRY / Auth |
 | Auth tagline | Silent Authority Protocol |
 | Role select tagline | Select your operational clearance to begin. |
 | Clearance labels | Clearance I — Resident / Clearance II — Security / Clearance III — Service |
-| Footer legal | Secured by SocietyOS Identity Shield |
-| App version footer | ShieldGuard v2.4.0 / SocietyOS Staff v4.2.1 |
+| Footer legal | Secured by GateWise Identity Shield |
+| App version footer | ShieldGuard v2.4.0 / GateWise Staff v4.2.1 |
 
 ---
 
@@ -137,9 +137,9 @@ Three distinct roles exist, each with a dedicated navigation structure and surfa
 
 | Role | App Name | Primary Color Accent | Nav Items |
 |------|----------|----------------------|-----------|
-| Resident | SocietyOS | `#25E0A7` | Home, Visitors, Messages, Vault |
+| Resident | GateWise | `#25E0A7` | Home, Visitors, Messages, Vault |
 | Guard | ShieldGuard | `#B3C9E2` (steel blue) | Logs, Scan, Status, Alerts |
-| Service Staff | SocietyOS Staff | `#B3C9E2` + cyan | Home (QR), Activity, Profile |
+| Service Staff | GateWise Staff | `#B3C9E2` + cyan | Home (QR), Activity, Profile |
 
 ---
 

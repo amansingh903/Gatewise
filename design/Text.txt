@@ -1,10 +1,10 @@
-<!-- SocietyOS Landing Page (Monotone Refresh) -->
+<!-- GateWise Landing Page (Monotone Refresh) -->
 <!DOCTYPE html>
 
 <html class="dark" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>SocietyOS — Residential Management Reimagined</title>
+<title>GateWise — Residential Management Reimagined</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -72,7 +72,7 @@
 <path d="M12 6L17.1962 9V15L12 18L6.80385 15V9L12 6Z" fill="#0A0A0A"></path>
 </svg>
 </div>
-<span class="text-lg font-semibold tracking-tight text-white">SocietyOS</span>
+<span class="text-lg font-semibold tracking-tight text-white">GateWise</span>
 </div>
 <div class="hidden md:flex items-center gap-8">
 <a class="text-[14px] text-white/60 hover:text-white transition-colors" href="#features">Experience</a>
@@ -98,7 +98,7 @@
             Your Society. Secured. Simplified.
         </h1>
 <p class="reveal max-w-[520px] text-[17px] text-white/60 leading-relaxed mb-10 mx-auto">
-            SocietyOS replaces paper registers and phone calls with instant digital visitor pre-clearance — giving residents control and guards a verification tool that works in under 30 seconds.
+            GateWise replaces paper registers and phone calls with instant digital visitor pre-clearance — giving residents control and guards a verification tool that works in under 30 seconds.
         </p>
 <div class="reveal flex flex-col sm:flex-row items-center gap-4 mb-12">
 <button class="bg-white text-black px-8 py-3.5 font-semibold rounded-xl hover:bg-neutral-200 transition-all shadow-[0_4px_24px_rgba(255,255,255,0.1)]">
@@ -118,13 +118,13 @@
 <div class="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
 <div class="reveal space-y-8">
 <div class="inline-flex items-center gap-2 bg-white/5 border border-white/20 rounded-full px-3 py-1">
-<span class="text-[11px] font-bold text-white uppercase tracking-widest">About SocietyOS</span>
+<span class="text-[11px] font-bold text-white uppercase tracking-widest">About GateWise</span>
 </div>
 <h2 class="text-[clamp(28px,4vw,42px)] font-bold text-white leading-tight tracking-[-0.02em]">
                 Built for the way modern societies actually work.
             </h2>
 <div class="space-y-6 text-white/60 text-[16px] leading-relaxed">
-<p>We started SocietyOS after watching a security guard spend three minutes on the phone just to let in a food delivery — while six more visitors waited at the gate.</p>
+<p>We started GateWise after watching a security guard spend three minutes on the phone just to let in a food delivery — while six more visitors waited at the gate.</p>
 <p>Our platform gives residents a digital key: pre-approve anyone, generate a QR code in seconds, and let your household staff through automatically every morning without a single call.</p>
 <p>For society admins, it's a full command centre — entry logs, complaints, notices, and resident management from one clean dashboard.</p>
 </div>
@@ -212,7 +212,7 @@
 <path d="M12 2L20.6603 7V17L12 22L3.33975 17V7L12 2Z" fill="url(#logo-grad)"></path>
 </svg>
 </div>
-<span class="text-base font-bold tracking-tight text-white/90">SocietyOS</span>
+<span class="text-base font-bold tracking-tight text-white/90">GateWise</span>
 </div>
 <div class="flex flex-wrap justify-center gap-8 text-[13px] text-white/40 font-medium">
 <a class="hover:text-white transition-colors uppercase tracking-widest" href="#features">Experience</a>
@@ -231,7 +231,7 @@
 </div>
 <div class="max-w-7xl mx-auto text-center pt-8 border-t border-white/5">
 <p class="text-[13px] text-white/25 leading-relaxed">
-            © 2024 SocietyOS. Elevating Residential Standards. · Built for residential communities.
+            © 2024 GateWise. Elevating Residential Standards. · Built for residential communities.
         </p>
 </div>
 </footer>
@@ -487,7 +487,7 @@
 <!-- SideNavBar (Shared Component) -->
 <aside class="fixed left-0 top-0 h-full flex flex-col p-4 bg-neutral-900 text-neutral-400 font-inter text-sm h-screen w-64 border-r border-neutral-800 transition-all z-50">
 <div class="mb-10 px-4">
-<h1 class="text-lg font-black text-neutral-100 uppercase tracking-widest">SocietyOS Admin</h1>
+<h1 class="text-lg font-black text-neutral-100 uppercase tracking-widest">GateWise Admin</h1>
 <p class="text-xs text-neutral-500 mt-1 uppercase tracking-tighter">Management Portal</p>
 </div>
 <nav class="flex-1 space-y-1">
@@ -748,7 +748,7 @@
 <html class="dark" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>SocietyOS Admin Login</title>
+<title>GateWise Admin Login</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -848,12 +848,12 @@
 <body class="bg-background text-on-background min-h-screen flex items-center justify-center particle-bg selection:bg-primary/20">
 <!-- Login Container -->
 <main class="relative z-10 w-full max-w-[440px] px-6 py-12">
-<!-- SocietyOS Logo Area -->
+<!-- GateWise Logo Area -->
 <div class="flex flex-col items-center mb-10 space-y-2">
 <div class="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mb-4 ring-1 ring-white/20 shadow-2xl">
 <span class="material-symbols-outlined text-4xl text-white" style="font-variation-settings: 'FILL' 1;">admin_panel_settings</span>
 </div>
-<h1 class="text-3xl font-black tracking-widest text-white uppercase">SocietyOS</h1>
+<h1 class="text-3xl font-black tracking-widest text-white uppercase">GateWise</h1>
 <p class="text-on-surface-variant font-medium text-sm tracking-tight">Administrative Access Portal</p>
 </div>
 <!-- Glassmorphic Login Card -->
@@ -866,7 +866,7 @@
 <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
 <span class="material-symbols-outlined text-on-surface-variant text-xl transition-colors group-focus-within:text-white">alternate_email</span>
 </div>
-<input class="block w-full pl-12 pr-4 py-4 bg-white/5 border border-white/10 rounded-xl text-white placeholder-on-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-white/20 focus:bg-white/10 transition-all duration-300" id="admin_id" name="admin_id" placeholder="admin@societyos.cloud" required="" type="text"/>
+<input class="block w-full pl-12 pr-4 py-4 bg-white/5 border border-white/10 rounded-xl text-white placeholder-on-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-white/20 focus:bg-white/10 transition-all duration-300" id="admin_id" name="admin_id" placeholder="admin@gatewise.cloud" required="" type="text"/>
 </div>
 </div>
 <!-- Password Field -->
@@ -904,7 +904,7 @@
 <!-- Footer Links -->
 <div class="mt-8 pt-8 border-t border-white/10 flex flex-col items-center space-y-4">
 <p class="text-xs text-on-surface-variant/60 font-medium">
-                    Secured by SocietyOS Identity Node
+                    Secured by GateWise Identity Node
                 </p>
 <div class="flex gap-6">
 <a class="text-[10px] uppercase tracking-widest text-on-surface-variant hover:text-white transition-colors" href="#">Privacy Policy</a>
@@ -933,7 +933,7 @@
 <html class="dark" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Security Management | SocietyOS</title>
+<title>Security Management | GateWise</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -1022,7 +1022,7 @@
 <!-- SideNavBar (Shared Component from SCREEN_14) -->
 <aside class="fixed left-0 top-0 h-full flex flex-col p-4 bg-neutral-900 text-neutral-400 font-inter text-sm h-screen w-64 border-r border-neutral-800 transition-all z-50">
 <div class="mb-10 px-4">
-<h1 class="text-lg font-black text-neutral-100 uppercase tracking-widest">SocietyOS Admin</h1>
+<h1 class="text-lg font-black text-neutral-100 uppercase tracking-widest">GateWise Admin</h1>
 <p class="text-xs text-neutral-500 mt-1 uppercase tracking-tighter">Management Portal</p>
 </div>
 <nav class="flex-1 space-y-1">
@@ -1357,7 +1357,7 @@
 <html class="dark" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>SocietyOS Role Management</title>
+<title>GateWise Role Management</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -1442,7 +1442,7 @@
 <!-- SideNavBar (Exact from SCREEN_14) -->
 <aside class="fixed left-0 top-0 h-full flex flex-col p-4 bg-neutral-900 text-neutral-400 font-inter text-sm h-screen w-64 border-r border-neutral-800 transition-all z-50">
 <div class="mb-10 px-4">
-<h1 class="text-lg font-black text-neutral-100 uppercase tracking-widest">SocietyOS Admin</h1>
+<h1 class="text-lg font-black text-neutral-100 uppercase tracking-widest">GateWise Admin</h1>
 <p class="text-xs text-neutral-500 mt-1 uppercase tracking-tighter">Management Portal</p>
 </div>
 <nav class="flex-1 space-y-1">
@@ -1759,7 +1759,7 @@
 <html class="dark" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>SocietyOS Admin Dashboard - User Management</title>
+<title>GateWise Admin Dashboard - User Management</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -1851,7 +1851,7 @@
 <!-- SideNavBar (from SCREEN_14) -->
 <aside class="fixed left-0 top-0 h-full flex flex-col p-4 bg-neutral-900 text-neutral-400 font-inter text-sm h-screen w-64 border-r border-neutral-800 transition-all z-50">
 <div class="mb-10 px-4">
-<h1 class="text-lg font-black text-neutral-100 uppercase tracking-widest">SocietyOS Admin</h1>
+<h1 class="text-lg font-black text-neutral-100 uppercase tracking-widest">GateWise Admin</h1>
 <p class="text-xs text-neutral-500 mt-1 uppercase tracking-tighter">Management Portal</p>
 </div>
 <nav class="flex-1 space-y-1">

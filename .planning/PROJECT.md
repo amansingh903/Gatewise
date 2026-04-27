@@ -1,12 +1,12 @@
-# SocietyOS Web Admin Portal & Landing Page
+# GateWise Web Admin Portal & Landing Page
 
 ## What This Is
 
-SocietyOS is a digital visitor management and society operations platform. This milestone shifts focus to the **Web Application**. It establishes a public-facing Landing Page using a Monotone Refresh design with 3D canvas elements, and a robust Admin Portal for managing residents, security guards, and system configurations. It will reuse the existing frontend and backend codebases, overriding outdated/irrelevant code to match the new scope.
+GateWise is a digital visitor management and society operations platform. This milestone shifts focus to the **Web Application**. It establishes a public-facing Landing Page using a Monotone Refresh design with 3D canvas elements, and a robust Admin Portal for managing residents, security guards, and system configurations. It will reuse the existing frontend and backend codebases, overriding outdated/irrelevant code to match the new scope.
 
 ## Core Value
 
-Provide a comprehensive, real-time monitoring and administrative interface for SocietyOS, rigorously adhering to the exact Monotone design language and layouts specified in the design references.
+Provide a comprehensive, real-time monitoring and administrative interface for GateWise, rigorously adhering to the exact Monotone design language and layouts specified in the design references.
 
 ## Requirements
 

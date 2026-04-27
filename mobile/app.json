@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SocietyOS",
-    "slug": "societyos",
+    "name": "GateWise",
+    "slug": "gatewise",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,9 +10,9 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.societyos.mobile",
+      "bundleIdentifier": "com.gatewise.mobile",
       "infoPlist": {
-        "NSUserNotificationUsageDescription": "SocietyOS sends alerts when visitors arrive at your gate."
+        "NSUserNotificationUsageDescription": "GateWise sends alerts when visitors arrive at your gate."
       }
     },
     "android": {
@@ -24,7 +24,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.societyos.mobile",
+      "package": "com.gatewise.mobile",
       "permissions": [
         "android.permission.RECEIVE_BOOT_COMPLETED",
         "android.permission.VIBRATE",
@@ -65,7 +65,7 @@
       [
         "expo-image-picker",
         {
-          "photosPermission": "SocietyOS needs access to your photos to set your profile picture."
+          "photosPermission": "GateWise needs access to your photos to set your profile picture."
         }
       ]
     ],

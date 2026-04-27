@@ -1,4 +1,4 @@
-# SocietyOS Mobile
+# GateWise Mobile
 
 Expo Router app for resident, guard, and service staff workflows.
 

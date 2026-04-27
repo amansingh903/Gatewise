@@ -1,6 +1,6 @@
 # Code Conventions
 
-This document tracks the code conventions and linting rules enforced across the SocietyOS repositories.
+This document tracks the code conventions and linting rules enforced across the GateWise repositories.
 
 ## Linting & Formatting
 - **ESLint**: Standardized using `eslint.config.js` (Flat Config) across the `frontend` and `mobile` projects.

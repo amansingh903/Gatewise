@@ -1,6 +1,6 @@
-# Gatewise
+# GateWise
 
-Gatewise is a society management platform with a web dashboard, a mobile app, and a Node.js API. It supports role-based access for admins, residents, security guards, and service staff.
+GateWise is a society management platform with a web dashboard, a mobile app, and a Node.js API. It supports role-based access for admins, residents, security guards, and service staff.
 
 ## Apps
 
@@ -39,7 +39,7 @@ Required values:
 ```env
 DATABASE_URL=postgresql://postgres:postgres@localhost:54322/postgres
 DIRECT_URL=postgresql://postgres:postgres@localhost:54322/postgres
-JWT_SECRET=Gatewise-super-secret-jwt-key-change-in-production
+JWT_SECRET=gatewise-super-secret-jwt-key-change-in-production
 PORT=5000
 REDIS_URL=redis://localhost:6379
 CORS_ORIGIN=http://localhost:5173
@@ -108,7 +108,7 @@ The seed script creates these accounts:
 
 | Role | Email | Password |
 | --- | --- | --- |
-| Admin | `admin@Gatewise.com` | `Admin@123` |
+| Admin | `admin@gatewise.com` | `Admin@123` |
 | Resident | `resident1@test.com` | `Resident@123` |
 | Resident | `resident2@test.com` | `Resident@123` |
 | Security | `guard1@test.com` | `Guard@123` |

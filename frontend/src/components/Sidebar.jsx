@@ -39,7 +39,7 @@ export default function Sidebar() {
         <div className="flex items-center gap-4">
           <img src="/icon.png" alt="appartment" className='w-12 h-12 rounded-xl' />
           <div>
-            <h1 className="text-2xl font-black bg-gradient-to-r from-white via-indigo-100 to-slate-400 bg-clip-text text-transparent tracking-tight">SocietyOS</h1>
+            <h1 className="text-2xl font-black bg-gradient-to-r from-white via-indigo-100 to-slate-400 bg-clip-text text-transparent tracking-tight">GateWise</h1>
             <p className="text-[10px] text-indigo-400 font-black uppercase tracking-[0.2em] mt-0.5">Admin Portal</p>
           </div>
         </div>

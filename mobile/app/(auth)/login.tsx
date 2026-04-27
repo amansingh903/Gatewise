@@ -120,7 +120,7 @@ export default function LoginScreen() {
               style={{ width: 28, height: 28 }} 
               resizeMode="contain" 
             />
-            <Text style={styles.logoText}>SocietyOS</Text>
+            <Text style={styles.logoText}>GateWise</Text>
           </View>
 
           {/* Role badge */}

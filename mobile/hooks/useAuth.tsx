@@ -1,5 +1,5 @@
 /**
- * SocietyOS Mobile — Auth Context
+ * GateWise Mobile — Auth Context
  *
  * Provides login, logout, and session restore across the app.
  * Stores JWT + user payload in expo-secure-store.
@@ -100,7 +100,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
             if (hasHardware && isEnrolled) {
               const authResult = await LocalAuthentication.authenticateAsync({
-                promptMessage: 'Login to SocietyOS',
+                promptMessage: 'Login to GateWise',
                 fallbackLabel: 'Use Password',
               });
 

@@ -86,11 +86,11 @@ const forgotPassword = async ({ email }) => {
     if (process.env.SMTP_USER && process.env.SMTP_PASS) {
       await sendMail({
         to: email,
-        subject: 'SocietyOS - Password Reset',
+        subject: 'GateWise - Password Reset',
         html: `
           <div style="font-family: Arial, sans-serif; padding: 20px;">
             <h2>Identity Recovery</h2>
-            <p>You requested a password reset for your SocietyOS account.</p>
+            <p>You requested a password reset for your GateWise account.</p>
             <p>Your 6-digit OTP is:</p>
             <h1 style="letter-spacing: 5px; color: #3b82f6;">${otp}</h1>
             <p>This code will expire in 15 minutes.</p>

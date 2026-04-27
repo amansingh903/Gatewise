@@ -1,6 +1,6 @@
 # External Integrations
 
-This document tracks all external services, third-party APIs, webhooks, and infrastructure integrations used by the SocietyOS applications.
+This document tracks all external services, third-party APIs, webhooks, and infrastructure integrations used by the GateWise applications.
 
 ## Database & Data Stores
 - **PostgreSQL / Supabase**: The primary relational database used for all structured application data. Prisma acts as the database ORM to connect to Supabase's hosted PostgreSQL.

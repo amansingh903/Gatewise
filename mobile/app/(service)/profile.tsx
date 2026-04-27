@@ -162,8 +162,8 @@ export default function ServiceProfile() {
         </TouchableOpacity>
 
         {/* Footer */}
-        <Text style={styles.footer}>SocietyOS v1.0.0</Text>
-        <Text style={styles.footerSub}>Powered by SocietyOS</Text>
+        <Text style={styles.footer}>GateWise v1.0.0</Text>
+        <Text style={styles.footerSub}>Powered by GateWise</Text>
 
         <View style={{ height: 100 }} />
       </ScrollView>

@@ -1,9 +1,9 @@
 # System Architecture
 
-This document describes the high-level architecture of the SocietyOS system, including patterns, layers, data flow, abstractions, and key entry points.
+This document describes the high-level architecture of the GateWise system, including patterns, layers, data flow, abstractions, and key entry points.
 
 ## System Pattern & Data Flow
-SocietyOS follows a standard client-server architecture with three primary clients interacting with a centralized REST/WebSocket API backend.
+GateWise follows a standard client-server architecture with three primary clients interacting with a centralized REST/WebSocket API backend.
 
 1. **Backend Server**: Acts as the central hub. It provides a RESTful API built on Express and real-time event broadcasting built on Socket.IO.
 2. **PostgreSQL Database**: Connected via Prisma ORM for structured data storage (Users, Societies, Flats, Passes, Complaints).
@@ -22,7 +22,7 @@ The backend uses a modular monolithic structure:
 
 ### Frontend & Mobile Architecture
 - Component-driven architecture using React components.
-- Global and context-based state management mapping to the SocietyOS entities.
+- Global and context-based state management mapping to the GateWise entities.
 - Direct API integration usually abstracted into a `services/` or `api.js` layer.
 
 ## Entry Points

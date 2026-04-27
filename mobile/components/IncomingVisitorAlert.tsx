@@ -137,7 +137,7 @@ export default function IncomingVisitorAlert() {
         {/* Top badge */}
         <View style={styles.topBadge}>
           <MaterialIcons name="shield" size={14} color="#53FEC2" />
-          <Text style={styles.topBadgeText}>SOCIETYOS · GATE ALERT</Text>
+          <Text style={styles.topBadgeText}>GATEWISE · GATE ALERT</Text>
         </View>
 
         {/* ── Call Visual Center ── */}

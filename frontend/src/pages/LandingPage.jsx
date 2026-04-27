@@ -63,7 +63,7 @@ export default function LandingPage() {
               </svg>
             </div>
             <span className="text-lg font-semibold tracking-tight text-white">
-              SocietyOS
+              GateWise
             </span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -116,7 +116,7 @@ export default function LandingPage() {
             Your Society. Secured. Simplified.
           </h1>
           <p className="reveal max-w-[520px] text-[17px] text-white/60 leading-relaxed mb-10 mx-auto">
-            SocietyOS replaces paper registers and phone calls with instant
+            GateWise replaces paper registers and phone calls with instant
             digital visitor pre-clearance — giving residents control and guards a
             verification tool that works in under 30 seconds.
           </p>
@@ -148,7 +148,7 @@ export default function LandingPage() {
           <div className="reveal space-y-8">
             <div className="inline-flex items-center gap-2 bg-white/5 border border-white/20 rounded-full px-3 py-1">
               <span className="text-[11px] font-bold text-white uppercase tracking-widest">
-                About SocietyOS
+                About GateWise
               </span>
             </div>
             <h2 className="text-[clamp(28px,4vw,42px)] font-bold text-white leading-tight tracking-[-0.02em]">
@@ -156,7 +156,7 @@ export default function LandingPage() {
             </h2>
             <div className="space-y-6 text-white/60 text-[16px] leading-relaxed">
               <p>
-                We started SocietyOS after watching a security guard spend three
+                We started GateWise after watching a security guard spend three
                 minutes on the phone just to let in a food delivery — while six
                 more visitors waited at the gate.
               </p>
@@ -324,7 +324,7 @@ export default function LandingPage() {
               </svg>
             </div>
             <span className="text-base font-bold tracking-tight text-white/90">
-              SocietyOS
+              GateWise
             </span>
           </div>
           <div className="flex flex-wrap justify-center gap-8 text-[13px] text-white/40 font-medium">
@@ -376,7 +376,7 @@ export default function LandingPage() {
         </div>
         <div className="max-w-7xl mx-auto text-center pt-8 border-t border-white/5">
           <p className="text-[13px] text-white/25 leading-relaxed">
-            © 2026 SocietyOS. Elevating Residential Standards. · Built for
+            © 2026 GateWise. Elevating Residential Standards. · Built for
             residential communities.
           </p>
         </div>

@@ -1,10 +1,10 @@
 # Testing Framework and Practices
 
-This document outlines the testing strategy, frameworks, structure, and mocking practices used across SocietyOS.
+This document outlines the testing strategy, frameworks, structure, and mocking practices used across GateWise.
 
 ## Current State
 **Status**: Pre-testing Phase
-As of the current phase of development (SocietyOS MVP/V1 Launch), the codebase currently lacks automated testing frameworks (Jest, Mocha, Cypress, Playwright, or React Native Testing Library are noticeably absent from the `package.json` dependencies). Backend lists an exit-error placeholder for `npm test`.
+As of the current phase of development (GateWise MVP/V1 Launch), the codebase currently lacks automated testing frameworks (Jest, Mocha, Cypress, Playwright, or React Native Testing Library are noticeably absent from the `package.json` dependencies). Backend lists an exit-error placeholder for `npm test`.
 
 ## Future Testing Strategy (Proposed)
 

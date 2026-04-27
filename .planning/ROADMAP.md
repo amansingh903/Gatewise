@@ -1,4 +1,4 @@
-# Roadmap: SocietyOS Web Admin
+# Roadmap: GateWise Web Admin
 
 ## Milestones
 

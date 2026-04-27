@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport({
 const sendMail = async ({ to, subject, html }) => {
   try {
     const info = await transporter.sendMail({
-      from: `"SocietyOS" <${process.env.SMTP_USER}>`,
+      from: `"GateWise" <${process.env.SMTP_USER}>`,
       to,
       subject,
       html,

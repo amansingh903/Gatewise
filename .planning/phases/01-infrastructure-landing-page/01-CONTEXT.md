@@ -1,7 +1,7 @@
 # Phase 1 Context: Infrastructure & Landing Page
 
 ## Goal
-Set up the Monotone Tailwind configuration in the existing `frontend` directory and build the Landing Page with the 3D Canvas, acting as the foundation for the SocietyOS Web Admin Portal.
+Set up the Monotone Tailwind configuration in the existing `frontend` directory and build the Landing Page with the 3D Canvas, acting as the foundation for the GateWise Web Admin Portal.
 
 ## Key Decisions
 - **3D Canvas Implementation**: We will install the standard `three` package (`npm install three`). The raw vanilla Three.js animation code given in `design/Text.txt` will be extracted and run within a React `useEffect` inside a dedicated `ThreeCanvas` component. We will **not** use `@react-three/fiber` for this phase.

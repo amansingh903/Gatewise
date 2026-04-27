@@ -58,7 +58,7 @@ const start = async () => {
     startPassExpiryCron();
 
     server.listen(PORT, '0.0.0.0', () => {
-      console.log(`SocietyOS API running on http://0.0.0.0:${PORT}`);
+      console.log(`GateWise API running on http://0.0.0.0:${PORT}`);
     });
   } catch (err) {
     console.error('Failed to start:', err);

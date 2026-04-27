@@ -112,7 +112,7 @@ app.get('/api/dashboard/charts', authenticate, authorize('ADMIN'), asyncHandler(
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ success: true, message: 'SocietyOS API is running' });
+  res.json({ success: true, message: 'GateWise API is running' });
 });
 
 app.use(errorHandler);

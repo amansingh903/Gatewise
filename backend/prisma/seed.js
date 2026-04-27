@@ -1,11 +1,11 @@
 /**
- * SocietyOS Database Seed Script
+ * GateWise Database Seed Script
  * Creates a test society, flats, and user accounts for all roles.
  *
  * Usage: node prisma/seed.js
  *
  * Accounts created (all passwords hashed with bcrypt):
- *   ADMIN:    admin@societyos.com    / Admin@123
+ *   ADMIN:    admin@gatewise.com    / Admin@123
  *   RESIDENT: resident1@test.com     / Resident@123
  *   RESIDENT: resident2@test.com     / Resident@123
  *   SECURITY: guard1@test.com        / Guard@123
@@ -21,7 +21,7 @@ const bcrypt = require('bcryptjs');
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log('🌱 Seeding SocietyOS database...\n');
+  console.log('🌱 Seeding GateWise database...\n');
 
   // 1. Create or find society
   let society = await prisma.society.findFirst({ where: { name: 'Emerald Heights' } });
@@ -74,7 +74,7 @@ async function main() {
   const users = [
     {
       name: 'Admin User',
-      email: 'admin@societyos.com',
+      email: 'admin@gatewise.com',
       password: adminPassword,
       phone: '+91-9000000001',
       role: 'ADMIN',
@@ -167,7 +167,7 @@ async function main() {
   console.log(' 🎉 Seed complete! Test accounts:');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log('');
-  console.log(' ADMIN:     admin@societyos.com    / Admin@123');
+  console.log(' ADMIN:     admin@gatewise.com    / Admin@123');
   console.log(' RESIDENT:  resident1@test.com     / Resident@123');
   console.log(' RESIDENT:  resident2@test.com     / Resident@123');
   console.log(' GUARD:     guard1@test.com        / Guard@123');

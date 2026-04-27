@@ -1,6 +1,6 @@
-# SocietyOS Web
+# GateWise Web
 
-React + Vite dashboard for SocietyOS.
+React + Vite dashboard for GateWise.
 
 ## Run
 

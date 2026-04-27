@@ -4,7 +4,7 @@ const prisma = require('./src/shared/config/prisma');
 async function main() {
   // Update the System Admin to belong to the active society
   const updated = await prisma.user.update({
-    where: { email: 'admin@societyos.cloud' },
+    where: { email: 'admin@gatewise.cloud' },
     data: { societyId: '4406da06-fe0e-4500-acc5-1d375fb43b5d' },
     select: { id: true, name: true, email: true, societyId: true }
   });

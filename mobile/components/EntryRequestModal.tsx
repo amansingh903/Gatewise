@@ -33,7 +33,7 @@ const { width, height } = Dimensions.get('window');
 const FULL_ALERT_SECS = 60;
 const MODAL_REMINDER_MS = 6000;
 const BANNER_REMINDER_MS = 14000;
-const PENDING_REQUEST_KEY = 'societyos-resident-pending-entry-request';
+const PENDING_REQUEST_KEY = 'gatewise-resident-pending-entry-request';
 
 const VISITOR_TYPE_CONFIG: Record<string, { icon: string; color: string; label: string }> = {
   DELIVERY: { icon: 'local_shipping', color: '#60a5fa', label: 'Delivery' },

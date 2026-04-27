@@ -40,12 +40,12 @@ export default function Login() {
   return (
     <div className="bg-background text-on-background min-h-screen flex items-center justify-center particle-bg selection:bg-primary/20">
       <main className="relative z-10 w-full max-w-[440px] px-6 py-12">
-        {/* SocietyOS Logo Area */}
+        {/* GateWise Logo Area */}
         <div className="flex flex-col items-center mb-10 space-y-2">
           <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mb-4 ring-1 ring-white/20 shadow-2xl">
             <span className="material-symbols-outlined text-4xl text-white" style={{fontVariationSettings: "'FILL' 1"}}>admin_panel_settings</span>
           </div>
-          <h1 className="text-3xl font-black tracking-widest text-white uppercase">SocietyOS</h1>
+          <h1 className="text-3xl font-black tracking-widest text-white uppercase">GateWise</h1>
           <p className="text-on-surface-variant font-medium text-sm tracking-tight">Administrative Access Portal</p>
         </div>
         
@@ -71,7 +71,7 @@ export default function Login() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="block w-full pl-12 pr-4 py-4 bg-white/5 border border-white/10 rounded-xl text-white placeholder-on-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-white/20 focus:bg-white/10 transition-all duration-300" 
-                  placeholder="admin@societyos.cloud" 
+                  placeholder="admin@gatewise.cloud" 
                   required 
                 />
               </div>
@@ -132,7 +132,7 @@ export default function Login() {
           
           {/* Footer Links */}
           <div className="mt-8 pt-8 border-t border-white/10 flex flex-col items-center space-y-4">
-            <p className="text-xs text-on-surface-variant/60 font-medium">Secured by SocietyOS Identity Node</p>
+            <p className="text-xs text-on-surface-variant/60 font-medium">Secured by GateWise Identity Node</p>
             <div className="flex gap-6">
               <a href="#" className="text-[10px] uppercase tracking-widest text-on-surface-variant hover:text-white transition-colors">Privacy Policy</a>
               <a href="#" className="text-[10px] uppercase tracking-widest text-on-surface-variant hover:text-white transition-colors">Security Audit</a>

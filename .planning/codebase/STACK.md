@@ -1,6 +1,6 @@
 # Technology Stack
 
-This document outlines the core technology stack, programming languages, runtimes, frameworks, and dependencies used across the SocietyOS project. It covers the backend services, the admin frontend web application, and the mobile applications for residents and guards.
+This document outlines the core technology stack, programming languages, runtimes, frameworks, and dependencies used across the GateWise project. It covers the backend services, the admin frontend web application, and the mobile applications for residents and guards.
 
 ## Backend Service (`/backend`)
 - **Runtime:** Node.js

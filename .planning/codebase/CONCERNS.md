@@ -1,6 +1,6 @@
 # Codebase Concerns and Tech Debt
 
-This document tracks known technical debt, potential architectural bottlenecks, security considerations, and fragile areas in the SocietyOS codebase.
+This document tracks known technical debt, potential architectural bottlenecks, security considerations, and fragile areas in the GateWise codebase.
 
 ## 1. Technical Debt & Quality Gaps
 - **Lack of Automated Testing**: The codebase completely lacks test suites (`jest`, `cypress`, etc. are absent). This makes regression detection very difficult. Implementing a unit-testing baseline for backend logic is critical.

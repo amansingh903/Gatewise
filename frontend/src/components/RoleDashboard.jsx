@@ -62,7 +62,7 @@ export default function RoleDashboard({ role }) {
               {config.icon}
             </span>
             <div>
-              <p className="text-sm font-bold tracking-[0.24em] text-white/80 uppercase">SocietyOS</p>
+              <p className="text-sm font-bold tracking-[0.24em] text-white/80 uppercase">GateWise</p>
               <p className="text-xs text-slate-500">{config.eyebrow}</p>
             </div>
           </Link>

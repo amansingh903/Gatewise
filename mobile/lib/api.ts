@@ -1,5 +1,5 @@
 /**
- * SocietyOS Mobile — API Client
+ * GateWise Mobile — API Client
  *
  * Axios wrapper that auto-attaches JWT tokens from SecureStore.
  * Handles 401 responses globally to trigger logout.
@@ -38,8 +38,8 @@ function resolveBaseUrl(): string {
 
 const BASE_URL = resolveBaseUrl();
 
-const TOKEN_KEY = 'societyos-token';
-const USER_KEY = 'societyos-user';
+const TOKEN_KEY = 'gatewise-token';
+const USER_KEY = 'gatewise-user';
 
 const api = axios.create({
   baseURL: `${BASE_URL}/api`,

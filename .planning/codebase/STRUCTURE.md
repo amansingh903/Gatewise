@@ -1,6 +1,6 @@
 # Codebase Structure
 
-This document provides a breakdown of the directory layout, key file locations, and naming conventions for the SocietyOS monorepo/polyrepo structure.
+This document provides a breakdown of the directory layout, key file locations, and naming conventions for the GateWise monorepo/polyrepo structure.
 
 ## High-Level Layout
 The repository is split into distinct environments/applications at the root level:

@@ -17,7 +17,7 @@ if (process.env.CLOUDINARY_URL) {
 const storage = new CloudinaryStorage({
   cloudinary,
   params: {
-    folder: 'societyos/profiles',
+    folder: 'gatewise/profiles',
     allowed_formats: ['jpg', 'jpeg', 'png', 'webp'],
     transformation: [{ width: 400, height: 400, crop: 'fill', gravity: 'face' }],
   },
